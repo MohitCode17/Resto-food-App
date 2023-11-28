@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         coral: "#FF9447",
+        lightCoral: "#FFAF75",
         blue: "#4F849F",
         red: "#FF6868",
         primaryBG: "#FCFCFC",
@@ -20,6 +21,6 @@ export default {
   plugins: [require("daisyui")],
   // daisyui theme
   daisyui: {
-    themes: [],
+    themes: ["light"],
   },
 };
