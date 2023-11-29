@@ -6,3 +6,8 @@ font-family: 'Inter', sans-serif; */
 body {
   font-family: "Inter", sans-serif;
 }
+
+header,
+nav {
+  z-index: 10001 !important;
+}

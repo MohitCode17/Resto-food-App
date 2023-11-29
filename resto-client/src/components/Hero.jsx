@@ -7,7 +7,7 @@ import { FaPaperPlane } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className="max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-0% from-[#FAFAFA] to-[#fcfcfc] to-100%">
-      <div className="flex items-center justify-between flex-col md:flex-row-reverse gap-8 py-10 md:py-16">
+      <div className="flex items-center justify-between flex-col md:flex-row-reverse gap-8 py-24">
         {/* Hero image side */}
         <div className="md:w-1/2 relative">
           <img src={banner} alt="hero-banner" />
