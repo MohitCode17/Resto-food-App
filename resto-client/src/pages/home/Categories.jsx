@@ -39,18 +39,18 @@ const Categories = () => {
         {categoriesItem.map((item, i) => (
           <div
             key={i}
-            className="shadow-lg rounded-md bg-white py-6 px-5 w-72 mx-auto text-center cursor-pointer hover:-translate-y-4 transition-all duration-300 z-10"
+            className="shadow-lg rounded-md bg-white py-6 px-5 w-60 mx-auto text-center cursor-pointer hover:-translate-y-4 transition-all duration-300 z-10"
           >
             <div className="w-full mx-auto flex items-center justify-center">
               <img
                 src={item.image}
                 alt=""
-                className="bg-[#ffdccf] p-5 rounded-full w-28 h-28"
+                className="bg-[#ffdccf] p-3 rounded-full w-20 h-20"
               />
             </div>
             <div className="mt-5 space-y-1">
-              <h5 className="text-[#1E1E1E] font-semibold">{item.title}</h5>
-              <p className="text-red text-sm">{item.description}</p>
+              <h5 className="text-textSmooth font-semibold">{item.title}</h5>
+              <h5 className="text-red text-[11px]">{item.description}</h5>
             </div>
           </div>
         ))}
